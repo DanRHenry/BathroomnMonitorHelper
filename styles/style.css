@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(143, 18, 18);
+}
+
+#inputContainer {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+#left, #right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: gray;
+    height: 4em;
+    padding: 1em;
+    border-radius: 3em;
+    color: whitesmoke;
+    border: white solid 3px;
+    margin-top: 45vh;
+    font-size: x-large;
+}
+
+#left {
+    margin-right: 10em;
+}
