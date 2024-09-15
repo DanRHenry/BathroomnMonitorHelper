@@ -1,11 +1,18 @@
 body {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: rgb(143, 18, 18);
     margin: 0;
 }
 
 #inputContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+}
+
+#content {
     display: flex;
     flex-direction: row;
 }
@@ -24,13 +31,15 @@ body {
     font-size: x-large;
     max-width: 35vw;
 }
+
 #right {
-	margin-right: 5vw;
+	margin-right: 3vw;
 }
 
 #left {
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 3vw;
+    /* margin-left: 5vw; */
+    margin-right: 10vw;
 }
 
 .checkboxes {
@@ -39,6 +48,8 @@ body {
 }
 
 .leftCheck, .rightCheck {
+    margin: .5em;
+    margin-top: 1em;
     width: 2em;
     height: 2em;
 }
