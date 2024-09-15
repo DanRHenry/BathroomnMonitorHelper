@@ -7,12 +7,11 @@ body {
 #inputContainer {
     display: flex;
     flex-direction: row;
-    margin: auto;
 }
 
 #left, #right {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     background-color: gray;
     height: 4em;
@@ -20,10 +19,20 @@ body {
     border-radius: 3em;
     color: whitesmoke;
     border: white solid 3px;
-    margin-top: 45vh;
+    margin-top: 35vh;
     font-size: x-large;
 }
 
 #left {
-    margin-right: 10em;
+    margin-right: 10vw;
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftCheck, .rightCheck {
+    width: 2em;
+    height: 2em;
 }
